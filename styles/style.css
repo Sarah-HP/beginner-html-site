@@ -4,8 +4,24 @@ p {
   border: 1px purple;
 }
 
+p, li, h1 {
+	color: red;
+}
+
 h1 {
 	color: blue;
 	width: 100000px;
 	border: 3px green;
+}
+
+html {
+	background-color: #ada397
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
 }
