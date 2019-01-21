@@ -8,9 +8,9 @@
   </head>
   <body>
     <h1>Mozilla is cool</h1>
-    <img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
+    <img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth." id="fox">
 
-    <p>At Mozilla, we’re a global community of</p>
+   <p>At Mozilla, we’re a global community of</p>
     
     <ul> <!-- changed to list in the tutorial -->
       <li>technologists</li>
@@ -18,8 +18,11 @@
       <li>builders</li>
     </ul>
 
-    <p class="button">Show Fox</p> <p class="button">Hide Fox</p>
+<!-- Bonus - try button -->
+<!-- Source consulted: https://www.sean.co.uk/a/webdesign/javascript_hide_reveal_appear_disappear.shtm -->
+    <div id ="fox" class="button" style="disply:none;"><a href="javascript:'" onClick="document.getElementById('fox).style.display='block';">Click and Fox will Disappear</a></div>
 
+<!-- Rest of website -->
     <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
 
     <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
