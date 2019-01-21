@@ -38,3 +38,8 @@ body {
 .importanttext {
 	color:green;
 }
+
+.button {
+	color: blue;
+	border: 5px orange;
+}
