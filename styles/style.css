@@ -1,7 +1,7 @@
 p {
 	color: black;
 	width: 500px;
-  border: 1px purple;
+	border: 1px purple;
 }
 
 p, li, h1 {
@@ -24,13 +24,15 @@ body {
   background-color: #FF9500;
   padding: 20 20px 20px 20px;
   border: 5px solid black;
+}
 
 .quote {
 	border: 1px solid black;
 }
 
+/*Make quotes red*/
 #mainquote {
-	color:green;
+	color:red;
 }
 
 .importanttext {
