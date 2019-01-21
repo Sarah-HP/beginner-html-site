@@ -6,9 +6,9 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
   </head>
-  <body>
+<body>
     <h1>Mozilla is cool</h1>
-    <img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth." id="fox">
+    <img id="foxImage" src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
 
    <p>At Mozilla, we’re a global community of</p>
     
@@ -20,7 +20,11 @@
 
 <!-- Bonus - try button -->
 <!-- Source consulted: https://www.sean.co.uk/a/webdesign/javascript_hide_reveal_appear_disappear.shtm -->
-    <div id ="fox" class="button" style="disply:none;"><a href="javascript:'" onClick="document.getElementById('fox).style.display='block';">Click and Fox will Disappear</a></div>
+<div id="foxImage" class="button" style="display:'none';">Hidden</div>
+
+
+<!-- This didn't work, so I'm putting it in the comments -->
+
 
 <!-- Rest of website -->
     <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
@@ -43,6 +47,8 @@
 
 <p> Sed scelerisque commodo odio, ut consectetur arcu sodales in. Curabitur vitae rhoncus arcu. Mauris hendrerit rhoncus diam sit amet hendrerit. Suspendisse potenti. Aenean semper rhoncus mi, non semper urna porta nec. Quisque condimentum est et ultricies aliquam. Etiam et eros in dolor tempus maximus eu id turpis. Aliquam ac leo sed ligula tincidunt vulputate. Suspendisse sagittis et mauris in euismod. Integer suscipit sapien sit amet nunc finibus, sed faucibus dui dictum. Phasellus ac velit nisi. </p>
 
-	<script src="scripts/main.js"
-  </body>
+
+<!-- I found the proble with my code -- Ihadn't properly closed the tag -->
+<script src="scripts/main.js"></script>
+</body>
 </html>

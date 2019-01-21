@@ -13,5 +13,5 @@ myHeading.texContent = 'Hello World!';
  foxImage.onclick = sayOuch;
 
  
- // Make a button 
-foxImage.onclick = style.display='none'
+//  // Make a button  *unsucessful
+// foxImage.onclick = style.display='none'
